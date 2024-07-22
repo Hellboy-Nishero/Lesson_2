@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #191d2b;
+    color: #7f0;
+    font-family: arial;
+}
+
+
+h1{
+    float: right;
+}
+
+
+.about{
+    padding-left: 7px;
+    padding-right: 7px;
+    width: 35%;
+    border: 3px solid #59f97c;
+    border-radius: 0px 20px 0px 20px;
+    margin: 30px auto 30px auto;
+    h2{
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    &:hover{
+        transition: border-color .4s ease-in-out;
+        border-color: #04ffff;
+    }
+}
+
+.hobby{
+    padding-left: 7px;
+    padding-right: 7px;
+    width: 35%;
+    border: 3px solid #59f97c;
+    border-radius: 0px 20px 0px 20px;
+    margin: 30px auto 30px auto;
+    h2{
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    &:hover{
+        transition: border-color .4s ease-in-out;
+        border-color: #cd6dfd;
+    }
+}
+
+.work{
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 5px;
+    width: 35%;
+    border: 3px solid #59f97c;
+    border-radius: 0px 20px 0px 20px;
+    margin: 30px auto 30px auto;
+    h2{
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    &:hover{
+        transition: border-color .4s ease-in-out;
+        border-color: #6b82f5;
+    }
+}
+
+.soc{
+    width: 200px;
+    background-color: #3a8bef;
+    margin: 10px auto 0 auto;
+    border-radius: 12px;
+    padding: 3px 10px 5px 10px;
+    h2{
+        text-align: center;
+        animation: glow 1s infinite alternate;
+    }
+    .links{
+        display: flex;
+        justify-content: center;
+        a{
+            font-size: 24px;
+            margin: 5px 5px 0 5px;
+            &:visited{
+                text-decoration: none;
+            }
+    }
+    }
+}
+
+@keyframes glow{
+    from{
+        text-shadow: 0px 0px 2px #74ffa9;
+    }
+    to{
+        text-shadow: 1px 1px 4px #74ffa9;
+    }
+}
